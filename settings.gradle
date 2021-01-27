@@ -1,2 +1,3 @@
+include ':recyclerviewkotlin'
 include ':app'
 rootProject.name = "AndroidSample"

@@ -1,0 +1,36 @@
+/**
+ * gradle 빌드 시 여러 모듈에서 동일한 dependency 를 사용하기 위함
+ */
+ext.deps = [:]
+
+def versions = [:]
+
+versions.core = "1.3.2"
+versions.appcompat = "1.2.0"
+versions.activity = '1.1.0'
+
+versions.constraintlayout = "2.0.4"
+versions.swiperefreshlayout = "1.1.0"
+versions.recyclerView = "1.2.0-alpha06"
+
+versions.material = "1.2.1"
+versions.gson = "2.8.6"
+versions.dagger = "2.27"
+
+versions.junit = "4.13.1"
+versions.test_junit = "1.1.2"
+versions.test_espresso = "3.3.0"
+
+versions.coroutines_core = "1.3.7"
+versions.coroutines_android = "1.3.9"
+
+versions.glide = "4.11.0"
+versions.lifecycle = "2.2.0"
+versions.liveData = "2.2.0"
+versions.retrofit = "2.9.0"
+versions.okhttpLoggingInterceptor = "4.7.2"
+versions.leakcanary = "2.3"
+
+versions.securityCryptoKtx = "1.0.0-rc03"
+
+ext.versions = versions
